@@ -8,7 +8,8 @@ module.exports = {
     // Define HTTP proxies to your custom API backend
     // https://github.com/chimurai/http-proxy-middleware
     proxy: {
-      /*'/': {
+      /*
+      '/': {
         // https://github.com/chimurai/http-proxy-middleware#http-proxy-options
         target: 'http://0.0.0.0:8000/',
         changeOrigin: true,
@@ -17,6 +18,7 @@ module.exports = {
         filter: function (pathname, req) {
           return req.headers['x-requested-with'] === 'XMLHttpRequest'
         }
-      }*/
+      }
+      */
     },
 }

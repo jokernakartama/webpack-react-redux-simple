@@ -1,6 +1,6 @@
 /node_modules
 .directory
 *~
-/build
+/dist/*
 TODO
 *.kate-swp
