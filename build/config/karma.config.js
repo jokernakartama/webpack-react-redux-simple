@@ -14,7 +14,8 @@ module.exports = function(config) {
     preprocessors: {
       'build/config/enzyme.init.js': ['webpack'],
       // application files     
-      'src/**/*.js': ['webpack']
+      'src/**/*.js': ['webpack'],
+      'src/**/*.jsx': ['webpack']
     },
     logLevel : config.LOG_ERROR,
     reporters: ['spec'],
